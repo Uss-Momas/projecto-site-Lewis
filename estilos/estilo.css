@@ -5,12 +5,15 @@
 
 body{
   background-color: rgb(238, 238, 238);
+  height: 100%;
 }
 
 form#form-login{
   background-color: white;
-  width: 400px;
-  margin: auto;/*Para centralizar*/
+  height: 350px;
+  width: min(90%, 500px);
+  margin: auto;
+  margin-top: max(calc(25% - 150px), 50px);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
@@ -21,14 +24,32 @@ form > p{
   text-align: center;
 }
 
-form > input{
+input.caixa-texto{
+  border: none;
+  outline: none;
+  border-bottom: 0.1px rgb(0, 255, 85) solid;
   padding: 10px;
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin-left: 5em;
+  width: 50%;
+  margin-bottom: 3em;
+  transition: width 0.9s ease-in-out;
+}
 
+input.caixa-texto:hover{
+  border: 0.1px rgb(0, 255, 85) solid;
+  border-radius: 5px;
+  width: 65%;
 }
 
 input#input-submeter{
   border: none;
+  padding: 10px;
+  margin-left: 15%;
+  width: 70%;
   background-color: rgb(56, 197, 0);
+  border-radius: 5px;
+  color: white;
+}
+input#input-submeter:hover{
+  background: rgb(25, 88, 0);
 }
