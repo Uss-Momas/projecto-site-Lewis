@@ -7,7 +7,7 @@ body{
   background-color: rgb(238, 238, 238);
   height: 100%;
 }
-
+/*PARA TELA DE LOGIN*/
 form#form-login{
   background-color: white;
   height: 350px;
@@ -52,4 +52,10 @@ input#input-submeter{
 }
 input#input-submeter:hover{
   background: rgb(25, 88, 0);
+}
+
+/*PARA TELA DE REGISTAR UTILIZADOR*/
+p#inicio-reg-centralizar{
+  width: 100%;
+  text-align: center;
 }
