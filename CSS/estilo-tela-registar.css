@@ -1,0 +1,149 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(238, 238, 238);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*PARA TELA DE REGISTAR UTILIZADOR*/
+nav{
+  display: flex;
+  justify-content: space-between;/*PARA DAR UM ESPACO ENTRE ELES*/
+  align-items: center;/*PARA ESTAREM NO MESMO NIVEL*/ 
+  padding: 10px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  /*CONTAINER PAI DOS <li>*/
+  display: flex;
+  gap: 0.8rem;
+  padding: 10px;
+}
+
+p#inicio-reg-centralizar{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+p#inicio-reg-centralizar span:nth-child(2){
+  margin: auto;
+}
+/*TODO MAIN*/
+main{
+  margin: 1% 5% 0 5%;
+  height: 100vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+form{
+  background-color: white;
+  padding: 10px;
+  margin-top: 5%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+form div.input-text{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  flex-basis: 60%;
+}
+
+input[type = "text"]{
+  margin: 10px;
+  margin-right: 10%;
+  width: 32%;
+}
+
+/*PARTE DE UPLOAD*/
+div.upload-image{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input.button-upload{
+  padding: 10px;
+  background-color: rgb(54, 238, 54);
+  border: 1px solid rgb(54, 238, 54);
+  border-radius: 5px;
+  margin: 5% 0;
+  color: white;
+}
+
+input.button-upload:hover{
+  background-color: rgb(28, 131, 28);
+  border: 1px solid rgb(28, 131, 28);
+}
+
+/*SUBMETER OU CANCELAR*/
+div.buttons-submeter{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.buttons-submeter > input{
+  border-radius: 5px;
+  margin: 0 2%;
+  padding: 0.4rem 2rem;
+}
+
+input.color-green{
+  background-color: rgb(54, 238, 54);
+  color: white;
+  border: 1px solid rgb(54, 238, 54);
+}
+input.color-green:hover{
+  background-color: rgb(28, 131, 28);
+  border: 1px solid rgb(28, 131, 28);
+}
+
+input.color-red{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+input.color-red:hover{
+  background-color: darkred;
+  border: 1px solid darkred;
+}
+
+footer{
+  margin-top: auto;
+  height: 3rem;
+  background-color: white;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}

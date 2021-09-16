@@ -6,44 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registar Utilizador</title>
-  <link rel="stylesheet" href="CSS/estilo.css">
+  <link rel="stylesheet" href="CSS/estilo-tela-registar.css">
 </head>
 
 <body>
   <header>
-    <img src="" alt="">
     <nav>
+      <img src="" alt="LOGO">
       <ul>
-        <li>Notificacao</li>
+        <li>Notificação</li>
         <li>Perfil</li>
         <li>Sair</li>
       </ul>
     </nav>
   </header>
   <hr>
-  <p id="inicio-reg-centralizar"> &lt;<a href=""> Voltar</a> <span><a href="">inicio</a> &gt;<a href=""> Gestão de
-        Utilizadores</a> &gt;<a href="">
-        Registar Utilizador</a></span></p>
+  <p id="inicio-reg-centralizar">
+    <span>
+      <a href="">&lt; Voltar</a>
+    </span>
+    <span>
+      <a href=""> início &gt;</a>
+      <a href=""> Gestão de Utilizadores &gt;</a>
+      <a href=""> Registar Utilizador</a>
+    </span>
+  </p>
   <main>
     <form action="">
-      <input type="text" placeholder="Nome">
-      <input type="text" placeholder="Apelido">
-      <br>
-      <input type="text" placeholder="Genero">
-      <input type="text" placeholder="NUIT">
-      <br>
-      <input type="text" placeholder="Email">
-      <input type="text" placeholder="Numero de Celular">
-      <br>
-      <input type="text" placeholder="Perfil do Utilizador">
-      <br>
-      <!--AQUI VEM IMAGEM DE USER-->
-      <input type="button" value="Upload">
-      <br>
-      <input type="button" value="Registar">
-      <input type="button" value="Cancelar">
+      <div class="input-text">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Apelido">
+        <input type="text" placeholder="Genero">
+        <input type="text" placeholder="Código do Trabalhador">
+        <input type="text" placeholder="Bilhete de Identidade">
+        <input type="text" placeholder="NUIT">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Numero de Celular">
+        <input type="text" placeholder="Perfil do Utilizador">
+      </div>
+      <div class="upload-image">
+        <img src="" alt="user-photo">
+        <input type="button" value="Upload" class="button-upload">
+      </div>
+      <div class="buttons-submeter">
+        <input type="button" value="Registar" class="color-green">
+        <input type="button" value="Cancelar" class="color-red">
+      </div>
     </form>
   </main>
+  <footer>
+    Sistema para Mapeamento de Edifícios Públicos &copy; Copyright 2016. Todos Direitos Reservados
+  </footer>
 </body>
 
 </html>
