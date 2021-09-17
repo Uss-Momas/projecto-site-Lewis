@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  padding: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: .8rem;
+}
+p{
+  border: 1px solid red;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+span:nth-child(2){
+
+}
