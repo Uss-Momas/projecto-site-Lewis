@@ -62,6 +62,7 @@ div > hr{
 }
 div > img{
   margin: auto;
+  height: 125px;
 }
 
 footer{
