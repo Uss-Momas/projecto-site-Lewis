@@ -1,0 +1,115 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(238, 238, 238);
+}
+
+header{
+  background-color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1% 5%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+p{
+  background-color: white;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+span:nth-child(1){
+  padding-left: 5%;
+}
+span:nth-child(2){
+  margin: auto;
+}
+span > strong{
+  color: rgb(16, 199, 16);
+}
+/*MAIN*/
+main{
+  height: 76vh;
+  background-color: white;
+  margin: 2% 5% 0 5%;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.459);
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div:nth-child(1){
+  width: 100%;
+  padding: 1% 5%;
+}
+div:nth-child(1) > input{
+  margin-left: 60%;
+}
+
+div:nth-child(2){
+  width: 24%;
+}
+div:nth-child(2) > input{
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+div:nth-child(2) > hr{
+  margin-left: 20%;
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+div:nth-child(2) > span{
+  margin-left: 15%;
+  display: flex;
+  margin-top: 2%;
+}
+div:nth-child(3){
+  width: 75%;
+}
+
+div:nth-child(3) > span.imagens{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+div:nth-child(3) > hr{
+  margin-right: 6.5%;
+}
+span.imagens > img{
+  border: 1px solid black;
+  width: 27.5%;
+  height: 25vh;
+}
+div > hr{
+  border: 1px solid rgb(16, 199, 16);
+  margin: 1% auto;
+}
+footer{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 1% 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
