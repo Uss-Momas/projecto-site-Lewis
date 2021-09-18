@@ -19,10 +19,15 @@ form#form-login{
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
 }
-
+img{
+  margin-bottom: 15px;
+}
 form > p{
   margin: 15px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  justify-content: center;
 }
 
 input.caixa-texto{
