@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(226, 225, 225);
+}
+/*HEADER E NAV*/
+header{
+  padding: 10px 5%;
+  background-color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+/*LINHA DE SEPARACAO*/
+hr{
+  border: 1px solid black;
+}
+/*VOLTAR*/
+p{
+  background-color: white;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+span:nth-child(1){
+  padding-left: 5%;
+}
+span:nth-child(2){
+  margin: auto;
+}
+
+/*MAIN*/
+main{
+  height: 90vh;
+  background-color: white;
+  margin: 2% 5% 0 5%;
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.459);
+  border: 1px solid red;
+}
+
+main > span{  
+  border: 1px solid red;
+  display: flex;
+  margin-top: 10px;
+}
+
+main > hr{
+  border: 1px solid rgb(6, 235, 6);
+  margin: 1% 5%;
+}
+
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  background-color: white;
+}
