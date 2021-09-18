@@ -29,8 +29,13 @@ p{
   margin-top: 20px;
   justify-content: center;
 }
+
 p:nth-child(2){
   margin-top: 0;
+}
+
+p:nth-child(3){
+  margin: 0px;
 }
 
 img{

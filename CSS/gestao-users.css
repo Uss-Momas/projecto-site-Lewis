@@ -27,10 +27,7 @@ ul{
   gap: 3rem;
 }
 
-/*LINHA DE SEPARACAO*/
-hr{
-  border: 1px solid black;
-}
+
 /*VOLTAR*/
 p{
   background-color: white;
@@ -53,13 +50,12 @@ main{
   margin: 2% 5% 0 5%;
   border-radius: 5px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.459);
-  border: 1px solid red;
 }
 
 main > span{  
-  border: 1px solid red;
   display: flex;
   margin-top: 10px;
+  padding-top: 10px;
 }
 
 main > hr{
